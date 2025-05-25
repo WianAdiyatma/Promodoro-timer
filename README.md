@@ -1,1 +1,1 @@
-# Promoro with to-do list
+Promoro timer with to-do list
