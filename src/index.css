@@ -140,3 +140,73 @@ button:hover {
   cursor: pointer;
   background-color: #555555;
 }
+
+/* For mobile phone */
+@media only screen and (max-width: 600px) {
+  .promodoro-timer {
+    flex-direction: column-reverse;
+  font-size: smaller;
+  }
+
+  /* to do list */
+  .to-do-list {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-height: 400px;
+  margin-bottom: 5px;
+  }
+
+  .to-do-list h1 {
+  margin: 5px;
+}
+
+.to-do-list input {
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #3e3e3e;
+  flex: 1;
+  color: white;
+  height: 20px;
+}
+
+.add-btn {
+  height: 30px;
+  padding: 5px;
+}
+
+.delete-btn {
+  height: 30px;
+  padding: 5px;
+}
+
+.to-do-list li {
+  margin: 5px 0 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Promodoro timer */
+.promodoro {
+  background-color: #1e1e1e;
+  padding: 20px;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+}
+
