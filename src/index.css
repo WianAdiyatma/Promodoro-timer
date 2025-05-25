@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* .color-display {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid gray;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Promodoro timer div */
+.promodoro-timer {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+}
+
+/* To do list style */
+.to-do-list {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.to-do-list h1 {
+  margin: 10px;
+}
+
+.to-do-list input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #3e3e3e;
+  flex: 1;
+  color: white;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.add-btn {
+  height: 35px;
+}
+
+.to-do-list li {
+  margin: 10px 0 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-do-list ol {
+  overflow: auto;
+}
+
+/* Timer styling */
+.clock {
+  padding: 10px;
+  border: 2px solid #ccc;
+  text-align: center;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+}
+
+.promodoro {
+  background-color: #1e1e1e;
+  padding: 20px;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.display {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+.controls-one {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-one button {
+  background-color: transparent;
+  width: auto;
+}
+
+.controls {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #3e3e3e;
+  color: #bebebe;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #555555;
+}
